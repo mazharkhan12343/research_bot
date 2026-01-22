@@ -1,7 +1,7 @@
 import requests
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
 
-TELEGRAM_TOKEN = "PASTE_YOUR_NEW_TOKEN_HERE"
+TELEGRAM_TOKEN = "8319657690:AAEHsOOQqrcmriSHWLkYqC4K5wI2ZPxmBt8"
 AI_API_KEY = "PASTE_YOUR_AI_KEY_HERE"
 
 def call_ai_model(system_prompt: str, user_message: str) -> str:
